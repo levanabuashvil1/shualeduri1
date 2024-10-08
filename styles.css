@@ -1,0 +1,211 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.container{
+    width: 736px;
+    height: 512px;
+    display: flex;
+}
+
+.bluebox{
+    display: flex;
+    align-items: center;
+    width: 368px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background-color:#6943FF;
+    flex-direction: column;
+}
+.heading{
+    font-weight: 700;
+  line-height: normal;
+   font-size: 24px;
+   font-style: normal;
+   color: #CAC9FF;
+   font-family: "Hanken Grotesk"
+
+}
+.icon1{
+    background-color: #4D21C9; 
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;  
+    margin-top: 30px;
+}
+.cipri1{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: "Hanken Grotesk";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px; 
+    position: absolute;
+    top: 10px;
+    right: 65px;
+}
+.cipri2{
+    font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+opacity: 0.5168;
+text-align: center;
+position: absolute;
+top: 130px;
+right: 77px;
+color: #CAC9FF;
+}
+.shepaseba{
+    font-family: "Hanken Grotesk";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #FFF;
+text-align: center;
+}
+.text{
+    font-family: "Hanken Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+color:#CAC9FF;
+
+}
+.satauri{
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #303B59;
+margin-right: 200px;
+
+
+}
+.container2{
+    width: 368px;
+    height: 512px;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+
+}
+.redbox{
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    background-color : antiquewhite;
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+.icon3{
+    color: rgb(225, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.Max_score
+{
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.icon2{
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2{
+    width: 260px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:   #e5ecd1a1;
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 34px
+}
+.surati{
+    width: 20px;
+  height: 20px;
+flex-shrink: 0;
+}
+.icon3{
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box3{
+    width: 260px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:   rgb(150, 217, 150);
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 35px;
+    
+}
+.icon4{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    width: 260px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:   #8890d6;
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 35px;
+
+    }
+    .Continue{
+        width: 288px;
+        height: 56px;
+        border-radius: 128px;
+        background: var(--Dark-Navy, #303B59);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
